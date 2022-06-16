@@ -1,0 +1,15 @@
+{
+  "name": "express-antibot-middleware",
+  "author": "https://github.com/Xenon8687",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-ip": "^1.0.4",
+    "geoip-lite": "^1.4.5"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
