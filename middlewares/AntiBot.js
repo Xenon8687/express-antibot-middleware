@@ -47,7 +47,7 @@ module.exports = (req, res, next) => {
           var newRequester = requester;
           newRequester.requests = reqs.concat([{timesetamp: new Date().getTime(), GEO: req.geo}])
           requesters.set(req.clientIP, newRequester);
-          reqs = requesters.get(req.clientIP).requests;;
+          reqs = requesters.get(req.clientIP).requests;
           requester = requesters.get(req.clientIP);
         }else {
           requesters.delete(req.clientIP);
